@@ -8,5 +8,6 @@ namespace CustomSerializer
     {
         public string Name { get; set; }
         public List<Category> Categories { get; set; }
+        public string Type { get; set; }
     }
 }
